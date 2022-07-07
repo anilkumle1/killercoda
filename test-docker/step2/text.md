@@ -1,1 +1,1 @@
-docker stop 'new-docker'
+docker stop -f name=new-docker
