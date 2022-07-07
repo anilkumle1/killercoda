@@ -22,6 +22,6 @@
     }
   },
   "backend": {
-    "imageid": "docker:stable"
+    "imageid": "kubernetes-kubeadm-2nodes"
   }
 }
