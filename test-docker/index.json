@@ -1,5 +1,5 @@
 {
-  "title": "Docker-testing 1.49",
+  "title": "Docker-testing 2",
   "description": "using docker will try to run some commands",
   "details": {
     "intro": {
@@ -11,11 +11,11 @@
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
       },
-      {
-        "title": "Run the docker image",
-        "text": "step2/text.md",
-        "verify": "step2/verify.sh"
-      }
+  //    {
+    //    "title": "Run the docker image",
+    //    "text": "step2/text.md",
+    //    "verify": "step2/verify.sh"
+    //  }
     ],
     "finish": {
       "text": "finish.md"
