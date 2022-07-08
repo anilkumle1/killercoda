@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker ps -f name=new-docker
+docker ps | grep "new-docker"

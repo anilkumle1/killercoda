@@ -1,5 +1,5 @@
 {
-  "title": "Docker-testing",
+  "title": "Docker-testing 1.46",
   "description": "using docker will try to run some commands",
   "details": {
     "intro": {
@@ -7,7 +7,7 @@
     },
     "steps": [
       {
-        "title": "Buikd a docker image",
+        "title": "Build a docker image",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
       },
