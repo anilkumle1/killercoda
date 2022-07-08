@@ -1,1 +1,1 @@
-docker stop new-docker
+docker ps | grep "new-docker"
