@@ -20,7 +20,7 @@
     "host01": [
       {
         "file": "Dockerfile",
-        "target": "/root"
+        "target": "/home"
       }
     ]
   },
