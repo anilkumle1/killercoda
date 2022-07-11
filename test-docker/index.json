@@ -6,7 +6,7 @@
 			"host01": [
 				{
 					"file": "Dockerfile",
-					"target": "/home"
+					"target": "/root/filesystem/home"
 				},
 				{"file": "app2/**/*.*", "target": "/app2"}
 			]
