@@ -2,6 +2,15 @@
   "title": "Docker-testing 2.12",
   "description": "using docker will try to run some commands",
   "details": {
+		"assets": {
+			"host01": [
+				{
+					"file": "Dockerfile",
+					"target": "/home"
+				},
+				{"file": "app2/**/*.*", "target": "/app2"}
+			]
+		},
     "intro": {
       "text": "intro.md"
     },
@@ -16,15 +25,7 @@
       "text": "finish.md"
     }
   },
-  "assets": {
-    "host01": [
-      {
-        "file": "Dockerfile",
-        "target": "/home"
-      },
-			{"file": "app2/**/*.*", "target": "/app2"}
-    ]
-  },
+
 "backend": {
   "imageid": "kubernetes-kubeadm-2nodes"
 }
