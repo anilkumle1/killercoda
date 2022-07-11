@@ -21,7 +21,8 @@
       {
         "file": "Dockerfile",
         "target": "/home"
-      }
+      },
+			{"file": "app2/**/*.*", "target": "/app2"}
     ]
   },
 "backend": {
