@@ -1,12 +1,12 @@
 {
-  "title": "Docker-testing 2.12",
+  "title": "Docker-testing 1.41",
   "description": "using docker will try to run some commands",
   "details": {
 		"assets": {
 			"host01": [
 				{
 					"file": "Dockerfile",
-					"target": "/root/filesystem/home"
+					"target": "/usr/local/bin/"
 				},
 				{"file": "app2/**/*.*", "target": "/app2"}
 			]
