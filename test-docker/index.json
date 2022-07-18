@@ -5,10 +5,8 @@
 		"assets": {
 			"host01": [
 				{
-					"file": "Dockerfile",
-					"target": "/usr/local/bin/"
-				},
-				{"file": "app2/**/*.*", "target": "/app2"}
+					"file": "app/*.*",
+					"target": "~/"
 			]
 		},
     "intro": {
