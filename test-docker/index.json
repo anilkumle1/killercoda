@@ -3,16 +3,12 @@
   "description": "using docker will try to run some commands",
   "details": {
 		"assets": {
-			"host01": [
-      "client": [
-                {"file": "Dockerfile", "target": "/usr/local/bin/"}
-
+			"client": [
 				{
 					"file": "app/*.*",
 					"target": "~/"
 				}
 			]
-    ]
 		},
     "intro": {
       "text": "intro.md"
