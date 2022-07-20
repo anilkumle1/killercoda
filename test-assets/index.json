@@ -1,0 +1,20 @@
+{
+  "title": "test Assets",
+  "description": "Upload files as assets to a specific location",
+  "details": {
+    "steps": [
+      {
+        "title": "Exec the uploaded script",
+        "text": "step1.md"
+      }
+    ],
+    "assets": {
+      "host01": [
+        {"file": "conf.yaml", "target": "~/", "chmod": "+w"}
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
