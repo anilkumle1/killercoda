@@ -4,11 +4,15 @@
   "details": {
 		"assets": {
 			"host01": [
+      "client": [
+                {"file": "Dockerfile", "target": "/usr/local/bin/"}
+
 				{
 					"file": "app/*.*",
 					"target": "~/"
 				}
 			]
+    ]
 		},
     "intro": {
       "text": "intro.md"
