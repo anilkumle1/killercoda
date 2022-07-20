@@ -12,13 +12,13 @@
         "verify": "step1/verify.sh"
       }
     ],
+    "finish": {
+      "text": "finish.md"
+    },
     "assets": {
       "host01": [
         {"file": "Dockerfile", "target": "~/", "chmod": "+w"}
       ]
-    },
-    "finish": {
-      "text": "finish.md"
     }
   },
 
