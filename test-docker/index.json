@@ -2,14 +2,6 @@
   "title": "Docker-testing 1.41",
   "description": "using docker will try to run some commands",
   "details": {
-		"assets": {
-			"client": [
-				{
-					"file": "app/*.*",
-					"target": "~/"
-				}
-			]
-		},
     "intro": {
       "text": "intro.md"
     },
@@ -20,6 +12,11 @@
         "verify": "step1/verify.sh"
       }
     ],
+    "assets": {
+      "host01": [
+        {"file": "Dockerfile", "target": "~/", "chmod": "+w"}
+      ]
+    },
     "finish": {
       "text": "finish.md"
     }
