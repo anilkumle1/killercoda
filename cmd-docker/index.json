@@ -19,11 +19,7 @@
     ],
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {"file": "app.py", "target": "~/", "chmod": "+w"}
-      ]
+
     }
 },
 "backend": {
