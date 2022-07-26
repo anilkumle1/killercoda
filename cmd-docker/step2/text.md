@@ -1,1 +1,1 @@
-docker ps | grep "new-docker"
+step2 testing
