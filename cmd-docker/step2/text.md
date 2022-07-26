@@ -1,5 +1,6 @@
 tasks:
 1. Login inside the running container and create some files ex: "file1", "file2"
-    then commit the docker container
+    then exit from the container
 
-2. Run the commited docker image
+2. commit the running docker container
+    docker commited image should save withn name of "commited-image"
