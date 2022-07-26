@@ -2,8 +2,9 @@ Write a dockerfile and buid a docker image
 
 you can use base image "python:3.6.1"
 
-you can use basic flask application
-codes available on path "/root" "app.py"
+Basic flask application:
+
+codes available on path "/root" 
 
 Requirements:
 1. Install the flask "pip install flask"
