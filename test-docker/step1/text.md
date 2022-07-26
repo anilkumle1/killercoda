@@ -1,5 +1,11 @@
 Write a dockerfile and buid a docker image
 
-you can pull any public docker image eg: alpine:3.16.0
+you can use base image "python:3.6.1"
 
-Docker container should run with name of "new-docker"
+you can use basic flask application
+codes available on path "/root" "app.py"
+
+Requirements:
+1. Install the flask "pip install flask"
+
+Run the docker image with the port number "5300"
