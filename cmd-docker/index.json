@@ -13,8 +13,7 @@
       },
       {
         "title": "step2",
-        "text": "step2/text.md",
-        "verify": "step2/verify.sh"
+        "text": "step2/text.md"
       }
     ],
     "finish": {
