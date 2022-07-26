@@ -12,8 +12,9 @@
         "verify": "step1/verify.sh"
       },
       {
-        "title": "step2",
-        "text": "step2/text.md"
+        "title": "commit the docker container",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
       }
     ],
     "finish": {
