@@ -20,8 +20,7 @@
         {"file": "app.py", "target": "~/", "chmod": "+w"}
       ]
     }
-  },
-
+},
 "backend": {
   "imageid": "kubernetes-kubeadm-2nodes"
 }

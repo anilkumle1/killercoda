@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker ps | grep "new-docker"
+docker ps | grep "5300"
