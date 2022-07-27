@@ -1,6 +1,7 @@
 {
   "title": "Docker-testing 12.59",
   "description": "Docker test-2",
+  "time": "15 minutes",
   "details": {
     "intro": {
       "text": "intro.md"
