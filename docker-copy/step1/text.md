@@ -10,7 +10,7 @@ First create a container and run a shell in it.
 
 Note that we are giving the container a name to make it easier to access later.
 
-docker run -it -d --name=docker  alpine:3.16.0
+docker run -it -d --name=mycontainer  alpine:3.16.0
 
 Next, copy a file from your host into that containner
 
