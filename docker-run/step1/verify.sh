@@ -1,4 +1,4 @@
 #!/bin/bash
 
-grep '5300|5200' | docker ps
+docker ps | grep '5200' && docker ps | grep '5300'
 # if docker ps | grep "new-docker"; then exit 1; fi
