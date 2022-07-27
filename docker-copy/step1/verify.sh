@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker cp mycontainer:application.py /filesystem
+docker cp mycontainer:/home/application.py /root/filesystem/
 cat /filesystem/application.py
 # docker exec -it docker stat /home/application.py
 # if docker exec -it docker stat /home/application.py; then exit 1; fi
