@@ -1,5 +1,7 @@
 #!/bin/bash
-grep "Flask" /root/filesyatem/application.py
+
+stat /root/filesystem/application.py
+# grep "Flask" /root/filesyatem/application.py
 
 # docker cp mycontainer:/home/application.py /root/filesystem/ && cat /root/filesystem/application.py
 # docker exec -it docker stat /home/application.py
