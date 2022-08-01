@@ -1,3 +1,3 @@
 #!/bin/bash
 
-stat /root/killercoda/test-git
+stat /root/killercode/test-git
