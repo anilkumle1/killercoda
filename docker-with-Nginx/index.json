@@ -23,7 +23,7 @@
     "assets": {
       "host01": [
         {"file": "app.py", "target": "~/", "chmod": "+w"},
-        {"file": "nginx-install.sh", "target": "~/", "chmod": "+x"
+        {"file": "nginx-install.sh", "target": "~/", "chmod": "+x"}
       ]
     }
 },
