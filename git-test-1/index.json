@@ -1,19 +1,14 @@
 {
-  "title": "Docker with Nginx",
-  "description": "Docker test-5",
+  "title": "Git Test",
+  "description": "Git clone and push",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "Run a docker image",
+        "title": "Git clone",
         "text": "step1/text.md",
-        "verify": "step1/verify.sh"
-      },
-      {
-        "title": "Nginx web server",
-        "text": "step2/text.md",
         "verify": "step1/verify.sh"
       }
     ],
