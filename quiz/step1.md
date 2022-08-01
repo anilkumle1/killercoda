@@ -30,7 +30,6 @@ Q4 is a single choice where users must select the correct answer.
 
 All of the above questions have been defined within markdown. There is no official syntax for a Quiz within markdown, as such the syntax for the above quiz is as follows:
 
-<pre>
 >>Q1: Enter the extract string test<<
 === test
 
@@ -45,7 +44,6 @@ All of the above questions have been defined within markdown. There is no offici
 >>Q4: Single Choice <<
 (*) Correct
 ( ) Incorrect
-</pre>
 
 The ***** within single and multiple choice indicates the correct answer. The syntax **===** is exact match, while **=~=** is a string containing match.
 
