@@ -16,7 +16,7 @@
     },
     "assets": {
       "host01": [
-        {"folder": "docker-compose-exercise", "target": "~/", "chmod": "+w"}
+        {"file": "docker-compose-exercise/*.*", "target": "~/"}
       ]
     }
 },
