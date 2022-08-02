@@ -16,7 +16,9 @@
     },
     "assets": {
       "host01": [
-        {"file": "docker-compose-exercise/*.*", "target": "~/"}
+        {"file": "docker-compose-exercise/*.*", "target": "~/"},
+        {"file": "docker-compose-exercise/database/*.*", "target": "~/docker-compose-exercise"},
+        {"file": "docker-compose-exercise/webapp/*.*", "target": "~/docker-compose-exercise"}
       ]
     }
 },
