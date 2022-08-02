@@ -1,4 +1,4 @@
-you have to create mutliple docker images for webapp, Mysql and NGINX
+you have to create docker images for webapp, Mysql and NGINX
 
 No need to write the Dockerfile for database it's already there on database folder
 
@@ -8,14 +8,14 @@ Write  a dockerfile for Webapp and NGINX
 
 Instruction to write the docker-compose file:
 
-1. DataBase Container:
+### 1.DataBase Container:
     Container_name should be `database`
     Bind the ports for Database "3306 & 33060"
     along with Db pass as the enviroment varibale
     `MYSQL_ROOT_PASSWORD=movie123`
 
 
-2. Webapp Container:
+### 2. Webapp Container:
     Container_name should be  `webapp`
     Bind the port for webapp "8080"
 
