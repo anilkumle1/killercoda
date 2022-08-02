@@ -1,0 +1,26 @@
+{
+  "title": "Docker-Nginx-mysql",
+  "description": "Docker test-6",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Run a docker image",
+        "text": "step1/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "docker-compose-exercise", "target": "~/", "chmod": "+w"}
+      ]
+    }
+},
+"backend": {
+  "imageid": "kubernetes-kubeadm-2nodes"
+}
+}
